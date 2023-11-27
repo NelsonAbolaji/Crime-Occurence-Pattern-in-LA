@@ -35,13 +35,7 @@ LAPD has received a report of 825,212 crime cases as at 23rd of October, 2023. T
 
 There are 138 distinct crime descriptions that the LAPD employs to briefly explain reports made by victims. These 138 crime descriptions have been grouped into 8 crime categories, 4 categories according to criminologists (Violent, Property, White-Collar, Organized) while the remaining groups were created to accomodate crime descriptions that do not fit the aforemetioned categories. Some of the crime descriptions were grouped by discretion and it may be necessary to check the category certain crime descriptions were grouped into.
 
-These are the most important details found out about certain offenses:
-
-- Property (theft, burglary) crimes make up 60.9% of total reported crimes while Violent crimes account for 30.1%.
-  
-- Vehicle-Stolen is the top Property crime reported by LA inhabitants while Battery-Simple Assault it the top Violent crime. Top crimes in each category can be seen in a table below.
-  
-- 88,355 vehicles have been stolen since 2020, making Vehicle-Stolen the most committed crime (10.7% of total crime), followed by Battery-Simple Assault (8.0%) and Theft of Identity (6.3%).
+Property crime (theft, burglary) make up 60.9% of the total reported crimes while Violent crime account for 30.1%. Vehicle-Stolen is the top Property crime reported by LA inhabitants while Battery-Simple Assault is the top Violent crime. Top crimes in each category can be seen in a table below. 88,355 vehicles have been stolen since 2020, making Vehicle-Stolen the most committed crime (10.7% of total crime), followed by Battery-Simple Assault (8.0%) and Theft of Identity (6.3%).
   
 - An average of 63 cases of stolen vehicles, 47 cases of Battery-Simple Assault, 36 buglaries from vehicles and 36 regular buglaries are reported to the LAPD each day.
   
