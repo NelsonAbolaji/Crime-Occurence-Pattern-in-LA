@@ -5,7 +5,7 @@
 
 - As at 23rd of October 2023, 825,212 crimes have been reported to the LAPD, with 212,018 cases recorded each year on average and 592 cases per day.
   
-- Crime occurs more on weekdays than weekends. Mondays have the highest crime rate and the intensity slowly reduces till the days near the weekend, where there's a significant reduction in crime rate.
+- Crime occur more on weekdays than weekends. Mondays have the highest crime rate and the intensity slowly reduces till the days near the weekend, where there's a significant reduction in crime rate.
   
 - 6.78% of the total crime committed occured at Noon (12 p.m.). This makes it the time with the highest crime rate.
   
