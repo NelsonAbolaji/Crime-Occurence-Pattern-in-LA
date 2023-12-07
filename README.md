@@ -39,13 +39,18 @@
   
 - What surveillance and lighting infrastructure are present on the street or other related public places where crime occured?
 
+### SQL Queries
+This project was done using PostgreSQL and Tableau. To go through the SQL statements and queries used to perform the analysis, click the link below:
+- [Table Creation Statements](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/LA%20Crime%20Table%20Creation%20Statement.md)
+- [Exploratory and Descriptive Analysis Queries](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/LA%20Crime%20Descriptive%20Data%20Analysis.md)
+
 ### Los Angeles Crime Report
 
 *This report uses data collected from the 1st of January, 2020 to 23rd of October, 2023. An initial capital letter convention is used in the report to lay emphasis on important phrases.*
 
-*The 138 crime descriptions the LAPD employs to summarize offenses reported by victims have been grouped into 8 categories to reduce granularity. To check the category each crime description is grouped into, click here: (Crime Category Classification Table).The Crime against Children category contains crimes committed against children with no detail of the particular offense. Other crimes committed to children are grouped in the appropriate category. There is also a need to present details about the 'Other' category as the crime descriptions that make it up aren't intuitive. The top 3 crime descriptions that are present in the 'Other' category are Violation Of Restraining Order, Other Miscellaneous crimes and Violation Of Court Order.*
+*The 138 crime descriptions the LAPD employs to summarize offenses reported by victims have been grouped into 8 categories to reduce granularity.The Crime against Children category contains crimes committed against children with no detail of the particular offense. Other crimes committed to children are grouped in the appropriate category.*
 
-*To check the category each crime description is grouped into, click here: [LA Crime Description Grouped]([LA Crime Category.csv)](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/LA%20Crime%20Category.csv)*
+*To check the category each crime description is grouped into, click here:* [LA Crime Description Grouped](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/LA%20Crime%20Category.csv)
 
 LAPD has received a report of 825,212 crime cases as at 23rd of October, 2023. The lowest cases in a year so far (192,703) was recorded in 2020 (excluding 2023 which is still incomplete) and the low crime rate may have been due to the pandemic. The highest amount of cases in a year was recorded in 2022 (235,069 cases).
 
@@ -111,14 +116,13 @@ Table 2: Number of crime in each category each gender is a victim of
 | Male | 191,726 | 126,599 | 9,089 | 4,132 | 5,408 | 3,430 | 273 | 7   |
 | Female | 149,381 | 111,089 | 17,460 | 16,874 | 3,999 | 3,727 | 1,262 | 86  |
 
-**Adults are the highest victims of crime**
+##### Adults are the highest victims of crime
 The tendency of being a victim of a criminal occurence is largely dependent on how young or old one is. People who are very old (elderlies aged 95-99 years have reported 594 cases) or very young (children aged 0-4 years have 1,829 reported cases) are least likely to be victims of crime. As the groups proceed to the age of 30-34, so does the tendecy of being a victim of crime. The crime rate sharply rises from 2.9% (23,894 cases) for people aged 15-19 to 7.9% (65,148 cases) for people 20-24 years old. People aged 30-34 (87,629 cases and 10.6% of total cases) are the highest demographic who are victims of crime and the crime rate drops as it moves towards groups of older ages. Crime type is also dependent on age group.
 
 ![Crime Rate and Type by Age Group](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Age%20Dashboard.png)
 Fig. 9: Crime type experienced by victims of each age group
 
-**Crime occurence by Victim's Descent**
-
+##### Crime occurence by Victim's Descent
 Hispanic/Latino/Mexican are the highest victims of crime, followed by LA's White and Black inhabitants. People of Hispanic/Latino/Mexican descent have been victims of 30.7% (253,152) of total crimes, with White victims behind at 20.4% (168,138) while Black people account for 14.2% (117,571) of total crime. These three descents are altogether victims of 65.3% of total criminal activities. With 13.2% of the records having a null descent value and 9.6% an unknown value, the rest of the descents are victims of 11.9% crimes.
 
 ![Victim's Dashboard](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Victim's%20Descent%20Dashboard.png)
