@@ -4,39 +4,37 @@
 ### Insights
 
 - As at 23rd of October 2023, 825,212 crimes have been reported to the LAPD, with 212,018 cases recorded each year on average and 592 cases per day.
-  
-- Crime occur more on weekdays than weekends. Mondays have the highest crime rate and the intensity slowly reduces till the days near the weekend, where there's a significant reduction in crime rate.
-  
-- 6.78% of the total crime committed occured at Noon (12 p.m.). This makes it the time with the highest crime rate.
-  
-- 12 p.m. and 4 p.m. to 8 p.m. are the hours where criminal activities are most intense while 2 a.m. to 6 a.m. have the lowest criminal activities.
-  
+
 - Vehicle theft is the most committed crime and it accounts for 10.71% of the total crime records. Battery-Simple Assault and Theft of identity are the 2nd 
   and 3rd most committed crimes respectively.
   
-- Central is the area with the highest crime rate, with 77th Street and Pacific having the 2nd and 3rd highest crime rate respectively.
+- Crime occur more on weekdays than weekends. Mondays have the highest crime rate and the intensity slowly reduces till the days near the weekend where there's a significant reduction in crime rate.
+  
+- Noon (12 p.m.) is the time of the day with the highest crime rate (6.78%).
+  
+- 12 p.m. and 4 p.m. to 8 p.m. are the hours where criminal activities are most intense while 2 a.m. to 6 a.m. have the lowest criminal activities.
   
 - People aged 30-34, closely followed by those aged 25-29 are more likely than other age groups to be victims of crime, especially assault with deadly weapons.
   
-- Battery involving Simple Assault is the highest crime men are victim of and it accounts for 10.6% of the total crime involving men, while Simple Assault by Intimate Partner is the highest crime women are victim of and it accounts for 10.9% of the total crime involving women.
+- Battery-Simple Assault is the highest crime men are victim of and it accounts for 10.6% of the total crime involving men, while Simple Assault by Intimate Partner is the highest crime women are victim of and it accounts for 10.9% of the total crime involving women.
   
 - People of Hispanic/Latin/Mexican, White and Black descent are the top 3 victims of crime. The top crime Hispanic/Latin/Mexican and Black people are victim
   of is Violent crime, Battery-Simple Assault to be precise while for the White demographic, it is Property crime, especially Burglary From Vehicle.
-  
+
+- Central is the area with the highest crime rate, with 77th Street and Pacific having the 2nd and 3rd highest crime rate respectively.
+ 
 - 28.8% of the crimes were reported to have happened in the street and 19.3% in Single Family Dwelling. This makes them the top two premises where crime occur.
   
-- Strong arm (Hands, Fist, Feet Or Bodily Force) is the top weapon used by assailants and it was reported as the used weapon in 53.6% of crimes where the weapon used is known. It is mostly used against females and it is commonly used in Battery-Simple Assault cases.
+- Strong arm (Hands, Fist, Feet Or Bodily Force) is the top weapon used by assailants and it was reported as the used weapon in 53.6% of crimes where the weapon used is known. It is mostly used against females and it is commonly used in Battery-Simple Assault cases (Weapon types commonly used may inform the budget for weapon procurement).
   
-- LAPD solves an average of 21.6% of the crime they record per year. Since 2020, the Police Department have closed 19.96% (164,724) cases, leaving 80.04% of the total crimes under investigation.
+- LAPD solves an average of 21.6% of the crime they record per year. Since 2020, the Police Department have closed 19.96% (164,724) cases, leaving 80.04% of the total crimes under investigation. This analysis aims to prevent crime occurences and assist surveillance efforts.
 
 ### Policy Recommendations
-
+The result of the analysis has revealed trends in the way crime occur in LA and the implementation of these policies may help police LA better:
+1. Deployment of human resources should be done with the consideration of the day, time, and the flow of the population or their intensity. Weekdays should  
 - Surveillance systems have been proven to deter crime, especially property crimes. An investment of the LAPD budget to improving surveillance coverage will be useful in preventing and investigating crimes that happen in public places. While this will reduce the cost of labour involved in investigating property crimes, human personnels still have a role to play.
 
-### Research Areas to look into in the Future
 
-- The records in the dataset do not contain much information about the perpetrator, and this can be useful in identifying the demographics that may benefit from intervention programmes. For example, having data such as age and sex of perpetrator below the age of 18 can inform the LAPD on the need for cultural and social education in schools, which will serve to reduce the 4,089 cases involving juveniles.
-  
 - What surveillance and lighting infrastructure are present on the street or other related public places where crime occured?
 
 ### SQL Queries
