@@ -31,11 +31,10 @@
 
 ### Policy Recommendations
 The result of the analysis has revealed trends in the way crime occur in LA and the implementation of these policies may help police LA better:
-1. Deployment of human resources should be done with the consideration of the day, time, and the flow of the population or their intensity. Weekdays should  
-- Surveillance systems have been proven to deter crime, especially property crimes. An investment of the LAPD budget to improving surveillance coverage will be useful in preventing and investigating crimes that happen in public places. While this will reduce the cost of labour involved in investigating property crimes, human personnels still have a role to play.
+1. Deployment of human resources should be done with the consideration of the day, time, and the flow of the population or their intensity. More officers should be deployed during the weekdays, and the number of on-duty personnel should be proportional to the average rate of crime on those days. On weekdays, officers should be deployed more in the afternoon while on weekends, an higher number of the officers deployed on those days should be on-duty at night.
+2. The population of an area is informative of the rate and type of crime that is prone to happen in it. Areas with a considerable population of Hispanic/Latin/Mexican people should receive more coverage from patrol officers as this demographic are more likely to be victims of crime, especially Violent crimes. Areas with a population of White people are more susceptible to Property crimes and patrolling may help deter criminals or promptly apprehend them.
+3. Surveillance systems have been proven to deter crime, especially property crimes. An investment of the LAPD budget to improving surveillance coverage will be useful in preventing and investigating crimes that happen in public places. While this will reduce the cost of labour involved in investigating Property crimes, human personnels still have a role to play.
 
-
-- What surveillance and lighting infrastructure are present on the street or other related public places where crime occured?
 
 ### SQL Queries
 This project was done using PostgreSQL and Tableau. To go through the SQL statements and queries used to perform the analysis, click the link below:
@@ -46,7 +45,7 @@ This project was done using PostgreSQL and Tableau. To go through the SQL statem
 
 *This report uses data collected from the 1st of January, 2020 to 23rd of October, 2023. An initial capital letter convention is used in the report to lay emphasis on important phrases.*
 
-*The 138 crime descriptions the LAPD employs to summarize offenses reported by victims have been grouped into 8 categories to reduce granularity.The Crime against Children category contains crimes committed against children with no detail of the particular offense. Other crimes committed to children are grouped in the appropriate category.*
+*The 138 crime descriptions the LAPD employs to summarize offenses reported by victims have been grouped into 8 categories to reduce granularity. The Crime against Children category contains crimes committed against children with no detail of the particular offense. Other crimes children were victims of have been placed in the appropriate category.*
 
 *To check the category each crime description is grouped into, click here:* [LA Crime Description Grouped](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/LA%20Crime%20Category.csv)
 
