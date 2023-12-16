@@ -31,9 +31,9 @@
 
 ### Policy Recommendations
 The result of the analysis has revealed trends in the way crime occur in LA and the implementation of these policies may help police LA better:
-1. Deployment of human resources should be done with the consideration of the day, time, and the flow of the population or their intensity. More officers should be deployed during the weekdays, and the number of on-duty personnel should be proportional to the average rate of crime on those days. On weekdays, officers should be deployed more in the afternoon while on weekends, an higher number of the officers deployed on those days should be on-duty at night.
-2. The population of an area is informative of the rate and type of crime that is prone to happen in it. Areas with a considerable population of Hispanic/Latin/Mexican people should receive more coverage from patrol officers as this demographic are more likely to be victims of crime, especially Violent crimes. Areas with a population of White people are more susceptible to Property crimes and patrolling may help deter criminals or promptly apprehend them.
-3. Surveillance systems have been proven to deter crime, especially property crimes. An investment of the LAPD budget to improving surveillance coverage will be useful in preventing and investigating crimes that happen in public places. While this will reduce the cost of labour involved in investigating Property crimes, human personnels still have a role to play.
+1. Patrol policing has been observed to moderately prevent crime and effectively reduce its intensity in [high crime areas](https://www.tandfonline.com/doi/abs/10.1080/07418829500096221). The deployment of human resources responsible for patrolling should thus be done with the consideration of the day, time and flow of the population. More patrol officers should be deployed during the weekdays, and their number should be proportional to the intensity of crime in each area and the average rate of crime on those days. On weekdays, patrol officers should be deployed more in the afternoon while on weekends, an higher number of the officers deployed should be on-duty at night.
+2. The ethnicities that make up an area's population is informative of the rate and type of crime that is prone to happen in it. Areas with a considerable population of Hispanic/Latin/Mexican people should receive more coverage from patrol officers as this demographic is more probable to be a victim of crime, especially Violent crimes. Areas with a population of White people are more susceptible to Property crimes and patrolling may help deter criminals or promptly apprehend them.
+3. Surveillance systems have been [proven](https://www.ojp.gov/ncjrs/virtual-library/abstracts/police-surveillance-and-emergence-cctv-1960s) to deter crime, especially property crimes. An investment of the LAPD budget to improving surveillance coverage will be useful in preventing and investigating crimes that happen in public places. While this will reduce the cost of labour involved in investigating Property crimes, human personnel still have a role to play.
 
 
 ### SQL Queries
@@ -53,7 +53,7 @@ LAPD has received a report of 825,212 crime cases as at 23rd of October, 2023. T
 
 ##### Property offense is the most committed crime
 
-Property crimes (e.g. theft, burglary) make up 60.9% of total reported crime while Violent crimes (e.g. assault, manslaughter) account for 30.1%. Vehicle-Stolen is the top Property crime reported by LA inhabitants while Battery-Simple Assault is the top Violent crime. Fig. 1 shows that since 2020, 88,355 vehicles have been stolen making Vehicle-Stolen the most committed crime (10.7% of total crime), followed by Battery-Simple Assault (8.0%) and Theft of Identity (6.3%). An average of 63 cases of stolen vehicles, 47 cases of battery-simple assault, 36 buglary from vehicles and 36 regular buglaries are reported to the LAPD daily. Strong arm (hands, fist, feet or bodily force) is the most common weapon (53.6%), followed by Verbal Threat (7.3%) and Hand Gun (5.9%).
+**Property crimes** (e.g. theft, burglary) **make up 60.9% of total reported crime** while Violent crimes (e.g. assault, manslaughter) account for 30.1%. Vehicle-Stolen is the top Property crime reported by LA inhabitants while Battery-Simple Assault is the top Violent crime. Fig. 1 shows that since 2020, 88,355 vehicles have been stolen making **Vehicle-Stolen the most committed crime** (10.7% of total crime), followed by Battery-Simple Assault (8.0%) and Theft of Identity (6.3%). An average of 63 cases of stolen vehicles, 47 cases of battery-simple assault, 36 cases of buglary from vehicles and 36 cases of regular buglaries are reported to the LAPD daily. Strong arm (hands, fist, feet or bodily force) is the most common weapon (53.6%), followed by Verbal Threat (7.3%) and Hand Gun (5.9%).
 
 ![An image showing Crime by Crime Category](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Crime%20by%20Crime%20Category.png)
 Fig. 1: Crime reportage by crime category
@@ -63,7 +63,7 @@ Central, 77th Street and Pacific are the areas with the highest daily crime rate
 ![An image showing Crime by Areapng](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Crime%20by%20Area.png)
 Fig. 2: Daily crime occurence in each Area
 
-Crimes leading to death (Criminal Homicide, Negligient Manslaugther, Lynching) - which have been tagged **Fatal crimes** for this analysis - make up approximately 0.2% of the total crimes committed. On average, one person is **killed** in LA each day. Hispanic/Latino/Mexican and Black people around the age of 20-40 are more likely to be a victim of a fatal crime, precisely Criminal Homicide. The age group of White people who are victims of fatal crime isn't distributed like the others that peak in the middle, as can be seen in the visualizations below. White people aged 35-39 are the highest victims of fatal crime (19 cases), followed by those aged 45-49 and 55-59 who recorded 12 cases each.
+Crimes leading to death (Criminal Homicide, Negligient Manslaugther, Lynching) - which have been tagged **Fatal crimes** for this analysis - make up approximately 0.2% of the total crimes committed. On average, one person is **killed** in LA each day. Hispanic/Latino/Mexican and Black people around the age of 20-40 are more likely to be a victim of a fatal crime, precisely Criminal Homicide. The age group of White people who are victims of fatal crime isn't distributed like the others that peak in the middle, as can be inferred from Fig. 3 and Fig. 4 below. White people aged 35-39 are the highest victims of fatal crime (19 cases), followed by those aged 45-49 and 55-59 who recorded 12 cases each.
 
 ![Fatal Crimes Dashboard](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Fatal%20Crimes%20Dashboard.png)
 Fig 3: Fatal crime by victim's age and descent
@@ -71,7 +71,7 @@ Fig 3: Fatal crime by victim's age and descent
 ![Fatal Crimes Dashboard White Descent](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Fatal%20Crimes%20Dashboard%20(White%20Descent).png)
 Fig. 4: Fatal crime involving victims of White descent
 
-The intensity of fatal crimes does not always match the general criminal activity in each area. The most extreme example is highlighted in Fig. 5, where Hollenbeck has the 2nd **lowest** crime rate by area but it is 3rd in the rank of top areas where fatal crimes occur. Other metrics crime rate and occurence is dependent on such as time and descent are explored further in the report.
+The intensity of fatal crimes does not always match the general criminal activity in each area. The most extreme example is highlighted in Fig. 5, where Hollenbeck has the **2nd lowest** crime rate by area but it is **3rd** in the rank of top areas where fatal crimes occur. Other metrics crime rate and occurence is dependent on such as time and descent are explored further in the report.
 
 ![Crime Rate by Fatal Crime Rate](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Crime%20Rate%20by%20Fatal%20Crime%20Rate.png)
 Fig. 5: A comparison of rank of all crimes with the rank of fatal crimes
@@ -86,24 +86,24 @@ Table 1: Average crime occurence on each day of the week
 |     | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | Avg Crime Rate | 652 | 625 | 614 | 603 | 593 | 534 | 526 |
 
-In Fig. 6 below, an increase in the occurence of Violent crime can be seen on Saturday and Sunday. The crimes most responsible for this increase are Intimate Partner-Simple Assault and Intimate Partner-Aggravated Assault and Assault with Deadly Weapon-Aggravated Assault. The rise in occurence of Intimate Partner related cases on the weekend may be because that is when partners are free from work and are both present at home.
+In Fig. 6 below, an increase in the occurence of Violent crime can be seen on Saturday and Sunday. The crimes most responsible for this increase are Intimate Partner-Simple Assault, Intimate Partner-Aggravated Assault and Assault with Deadly Weapon-Aggravated Assault. The rise in occurence of Intimate Partner related cases on the weekend may be because that is when partners are free from work and are both present at home for an extended time.
 
 ![Crime Rate on Days of the Week Crime Category](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Crime%20Rate%20on%20Days%20of%20the%20Week%20(Crime%20Category).png)
 Fig 6: Crime type occurence on each day of the week
 
 ##### Crime rate is highest in the afternoon
-12p.m. and 4p.m.- 8p.m. respectively are the hours where criminal offenses are most committed. The rate of crime occurence at each time of the day can be seen in the chart on the LHS of Fig. 7. The rate of occurence of crime of each category by time can also be seen in the chart on the RHS of Fig. 7. The hours of the day were also grouped into periods. Afternoon (12p.m.- 5p.m.) recorded the highest crime rate (32.4%), while night (9p.m. -4a.m.) recorded 28.1% of total crime.
+12p.m. and 4p.m.- 8p.m. respectively are the hours where criminal offenses are most committed. The rate of crime occurence at each time of the day can be seen in the chart on the LHS of Fig. 7. The rate of occurence of crime of each category by time can also be seen in the chart on the RHS of Fig. 7. The hours of the day were grouped into periods. Afternoon (12p.m.- 5p.m.) recorded the highest crime rate (32.4%), while night (9p.m. -4a.m.) recorded 28.1% of total crime.
 
 ![Crime Activity by Time](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Crime%20Activity%20by%20Time.png)
 Fig 7: Crime activity by time and type
 
-Generally, criminal offenses are more likely to occur in the afternoon, but on weekends, the crime rate is highest at night (9p.m. - 4a.m.) and 31.8% of crime that occurs on weekends (67,055 of total crime) happen then. In Fig. 8, it can be observed that on weekends, Violent crime and Sex-Related offenses see an increase in occurence at night which is significantly different from the intensity during the same period on weekdays. Other crime types follow the same trend on weekdays and weekends.
+Generally, criminal offenses are more likely to occur in the afternoon, but on weekends, the crime rate is highest at night (9p.m. - 4a.m.) and 31.8% of crime that occur on weekends happen then. In Fig. 8, it can be observed that on weekends, Violent crimes see an increase in occurence at night which is significantly different from the intensity during the same period on weekdays. The rate of Sex-Related offenses committed is highest at night on weekends as compared to weekdays where it is highest in the afternoon.
 
-![Weekday vs Weekend Violent and Sex Related Offenses Comparison](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Crime%20Rate%20on%20Days%20of%20the%20Week%20(Crime%20Category).png)
+![Weekday vs Weekend Violent and Sex Related Offenses Comparison](https://github.com/NelsonAbolaji/Crime-Occurence-Pattern-in-LA/blob/main/Markdown%20Images/Weekday%20vs%20Weekend%20(Violent%20and%20Sex-Related).png)
 Fig. 8: Difference in intensity between criminal activity on weekdays and weekends
 
 ##### Crime by Sex
-Males have been victims of 41.2% of total reported crime while females have been victims of 36.8% of total reported crime. The rest of the victim's sex values are either missing or not provided. Battery-Simple Assault (10.6%) and Aggravated Assault (10.4%) are the top 2 crime males are victim of while Intimate Partner-Simple Assault (10.9%) and Battery-Simple Assault (10.7%) are the top crimes females are victims of. There are crime types that plaque a gender considerably more than the other and should be further looked into, such as sex-related offenses. A summary table of crime rate by crime category can be seen below.
+Males have been victims of 41.2% of total reported crime while females have been victims of 36.8% of total reported crime. The rest of the victim's sex values are either missing or not provided. Battery-Simple Assault (10.6%) and Aggravated Assault (10.4%) are the top 2 crime males are victim of while Intimate Partner-Simple Assault (10.9%) and Battery-Simple Assault (10.7%) are the top crimes females are victim of. There are crime types that plague a gender considerably more than the other and should be further looked into, such as sex-related offenses. A summary table of the total crime and the type of crime committed against each gender can be seen below.
 
 Table 2: Number of crime in each category each gender is a victim of
 
@@ -114,7 +114,7 @@ Table 2: Number of crime in each category each gender is a victim of
 | Female | 149,381 | 111,089 | 17,460 | 16,874 | 3,999 | 3,727 | 1,262 | 86  |
 
 ##### Adults are the highest victims of crime
-The tendency of being a victim of a criminal occurence is largely dependent on how young or old one is. People who are very old (elderlies aged 95-99 years have reported 594 cases) or very young (children aged 0-4 years have 1,829 reported cases) are least likely to be victims of crime. As the groups proceed to the age of 30-34, so does the tendecy of being a victim of crime. The crime rate sharply rises from 2.9% (23,894 cases) for people aged 15-19 to 7.9% (65,148 cases) for people 20-24 years old. People aged 30-34 (87,629 cases and 10.6% of total cases) are the highest demographic who are victims of crime and the crime rate drops as it moves towards groups of older ages. Crime type is also dependent on age group.
+The tendency of being a victim of a criminal occurence is largely dependent on how young or old one is. People who are very old (elderlies aged 95-99 years have reported 0.1% of total cases) or very young (children aged 0-4 years have reported 0.3% of total cases) are least likely to be victims of crime. As the groups proceed to the age of 30-34, so does the tendecy of being a victim of crime. The crime rate sharply rises from 2.9% for people aged 15-19 to 7.9% for people 20-24 years old. People aged 30-34 (10.6% of total cases) are the highest demographic who are victims of crime and the crime rate drops as it moves towards groups of older ages. Crime type is also dependent on age group.
 
 ![Crime Rate and Type by Age Group](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Age%20Dashboard.png)
 Fig. 9: Crime type experienced by victims of each age group
@@ -125,4 +125,4 @@ Hispanic/Latino/Mexican are the highest victims of crime, followed by LA's White
 ![Victim's Dashboard](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/Markdown%20Images/Victim's%20Descent%20Dashboard.png)
 Fig. 10: Crime activity and intensity experienced by each descent
 
-Hispanic/Latino/Mexican females reported 0.2% crimes more than the males. It is also worth reporting they are victims of 44.4% of the total Sex-related offenses. Hispanic/Latino/Mexican have seen 162 people falsely imprisoned, followed by Black people with 57 people falsely imprisoned and White people with 51 people falsely imprisoned. White people are the highest victims (111,993 cases and 33.4% of total Property crime cases) of Property crime cases, with the most common Propety crime being Burglary from Vehicle.
+Hispanic/Latino/Mexican females reported 0.2% crime more than the males. It is also worth reporting they are victims of 44.4% of the total Sex-related offenses. White people are the highest victims (111,993 cases and 33.4% of total Property crime cases) of Property crime cases, with the most common Propety crime being Burglary from Vehicle.
