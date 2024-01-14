@@ -5,7 +5,7 @@
 
 - As at 23rd of October 2023, 825,212 crimes have been reported to the LAPD, with 212,018 cases recorded each year on average and 592 cases per day.
 
-- Vehicle theft is the most committed crime and it accounts for 10.71% of the total crime records. Battery-Simple Assault and Theft of identity are the 2nd 
+- Vehicle theft is the most committed crime and it accounts for 10.71% of the total crime record. Battery-Simple Assault and Theft of identity are the 2nd 
   and 3rd most committed crimes respectively.
   
 - Crime occur more on weekdays than weekends. Mondays have the highest crime rate and the intensity slowly reduces till the days near the weekend where there's a significant reduction in crime rate.
