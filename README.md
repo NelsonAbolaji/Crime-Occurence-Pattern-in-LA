@@ -37,7 +37,7 @@ The result of the analysis has revealed trends in the way crime occur in LA and 
 
 
 ### SQL Queries
-This project was done using PostgreSQL and Tableau. To go through the SQL statements and queries used to perform the analysis, click the link below:
+This project was done using PostgreSQL and Tableau. To go through the SQL statements and queries written to perform the analysis, click the link below:
 - [Table Creation Statements](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/LA%20Crime%20Table%20Creation%20Statement.md)
 - [Exploratory and Descriptive Analysis Queries](https://github.com/NelsonAbolaji/LA-Crime-Analysis/blob/main/LA%20Crime%20Descriptive%20Data%20Analysis.md)
 
